@@ -28,6 +28,7 @@ function App() {
 
   useEffect(() => {
     dictionaryApi();
+    // eslint-disable-next-line
   }, [word, category])
 
   const dictionaryApi = async () => {
